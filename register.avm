@@ -1,0 +1,17 @@
+; -------------
+; register.avm -
+; -------------
+
+push int16(42)
+dup
+store int8(0)
+store int8(15)
+push int32(43)
+load int8(0)
+load int8(15)
+add
+assert int16(84)
+print
+pop
+pop
+exit

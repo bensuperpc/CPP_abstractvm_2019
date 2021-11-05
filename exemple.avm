@@ -1,0 +1,43 @@
+; -------------
+; exemple.avm -
+; -------------
+
+push int32(0)
+push int32(1)
+push int32(2)
+push int32(3)
+push int32(4)
+dump
+clear
+
+push int32(42)
+push int32(42)
+add
+
+assert int32(84)
+
+pop
+
+push double(25.42)
+push int8(42)
+push int16(42)
+
+dump
+
+pop
+pop
+
+assert double(25.42)
+print
+pop
+
+push float(42)
+push float(10)
+mul
+print
+push double(10)
+swap
+div
+print
+pop
+exit

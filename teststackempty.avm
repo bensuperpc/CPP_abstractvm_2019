@@ -1,0 +1,11 @@
+; ---------------
+; - example . avm -
+; ---------------
+
+push float(2.2)
+push float(2.1)
+add
+dump
+clear
+dump
+exit
